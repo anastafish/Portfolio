@@ -1,0 +1,44 @@
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 2px #00000026;
+  width: 100%;
+}
+
+.h1-container{
+    padding: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+@media (max-width:800px){
+    h1{
+        font-size: 12px;
+    }
+}
+
+.header-h1{
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+      typing 3s steps(100, end),
+      blink-caret .75s step-end infinite;
+ }
+
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
