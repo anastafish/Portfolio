@@ -4,6 +4,7 @@
   justify-content: center;
   box-shadow: 0 2px 2px #00000026;
   width: 100%;
+  background-color: black;
 }
 
 .h1-container{
@@ -26,10 +27,11 @@
     border-right: .15em solid black;
     white-space: nowrap; 
     margin: 0 auto; 
+    color: white;
     letter-spacing: .15em;
     animation: 
       typing 3s steps(100, end),
-      blink-caret .75s step-end infinite;
+      blink-caret .75s step-end infinite
  }
 
   

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
 body{
     height: 100vh;
 }
@@ -5,38 +11,37 @@ body{
 .main-content{
     width: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-
-@media (max-width:800px){
-    .main-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-
-.main-content > div{
-    padding: 3rem;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
+    gap:2rem;
+}  
 
 .project-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid black;
 }
+
 
 .about-container{
-    border: 1px solid black;
+    display: flex;
+    /* grid-template-columns: 1fr 2fr; */
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .3rem;
+    width: 100%;
+    gap: 2rem;
 
 }
+
+
+.about-container img{
+    width: 15rem;
+    height: 100%;
+    
+}
+
 
 .project-card{
     display: grid;
@@ -45,34 +50,151 @@ body{
     align-items: center;
     justify-items: center;
     border: 1px solid black;
+    width: 16rem;
+    height: 10rem;
+    transition: transform 2s;
+}
+
+.project-card:hover{
+    transform: scale(1.3);
+    z-index: 9;
+}
+
+.project-card img:hover{
+    filter: blur(0px);
 }
 
 .project-card img{
-    width: 10rem;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+}
+
+.project-card a{
+    width: 100%;
+    height: 100%;
 }
 
 .project-card h1{
     font-size: 25px;
-    position: absolute;
-}
-
-.projects{
-    animation: slidein-project 3s;
+    position:absolute;
+    user-select: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 .about{
-    animation: slidein-about 3s;
+    margin-top: 1rem;
+    animation: slidein-about 1s 1.2s forwards;
+    opacity: 0;
+    box-shadow: 0 2px 2px #00000026;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-@keyframes slidein-project{
+.projects{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: 3s all ease;
+
+  }
+  .reveal.active{
+    animation: slidein-project 1s forwards;
+  }
+
+  @keyframes slidein-project{
     0%{
-        transform: translate(-1000px);
+        transform: translate(-1000px)
     }
 
     100%{
         transform: translate(0);
+        opacity: 1;
     }
 }
+
+.about-container p{
+    animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both 1.5s;
+    max-width: 550px;
+    text-align: center;
+    align-self: center;
+    font-size: 25px;
+    color: black;
+}
+
+.skills-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    padding-bottom:3rem ;
+    box-shadow: 0 2px 2px #00000026;
+    gap: 1rem;
+    padding: 2.5rem;
+    background-color: gainsboro;
+}
+
+.skills-container h1{
+    align-self: flex-start;
+}
+
+.skills-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.skills-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    padding: 2rem;
+}
+
+.contact-container h1{
+    align-self: flex-start;
+}
+
+
+.contact-container form{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contact-container input{
+    width: 20rem;
+}
+
+
+
+@keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+
 
 @keyframes slidein-about{
     0%{
@@ -81,5 +203,45 @@ body{
 
     100%{
         transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width:800px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-container p{
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .about-container img{
+        width: 70%;
+    }
+
+    .project-card{
+        width: auto;
+    }
+
+    .projects h1{
+        font-size: 20px;
+    }
+
+    .about h1{
+        font-size: 20px;
+    }
+
+    .project-container{
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .project-card h1{
+        font-size:10px ;
+    }
+
+    .skills-icons img{
+        width: 50px;
     }
 }
