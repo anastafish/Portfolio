@@ -5,15 +5,16 @@ import emailjs from '@emailjs/browser';
       const form = useRef();
     
       const sendEmail = (e) => {
-        e.preventDefault();    
+        e.preventDefault();   
         emailjs.sendForm('service_s1hmk1s', 'template_dx8srnq', form.current, 'KNshdyHxDVE80s1gd')
           .then((result) => {
-              console.log(result.text);
-
+              document.querySelector('.submit-btn').textContent = "Submmitted Succefully";
+              document.querySelector('.submit-btn').style.background = 'green'; 
           }, (error) => {
-              console.log(error.text);
+              document.querySelector('.submit-btn').textContent = "Try Again Later";
+              document.querySelector('.submit-btn').style.background = 'red'; 
           });
-      };
+        }
     
       return (
 
@@ -26,7 +27,7 @@ import emailjs from '@emailjs/browser';
               <input type="email" name="user_email" />
               <label>Message</label>
               <textarea name="message" />
-              <input type="submit" value="Send" />
+              <button className='submit-btn' type="submit" value="Send">Submit</button>
             </form>
         </div>
       );

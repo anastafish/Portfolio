@@ -1,10 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .header-container{
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 2px #00000026;
   width: 100%;
-  background-color: black;
+  background-color: #1B1212;
 }
 
 .h1-container{
@@ -16,12 +21,6 @@
     width: fit-content;
 }
 
-@media (max-width:800px){
-    h1{
-        font-size: 12px;
-    }
-}
-
 .header-h1{
     overflow: hidden;
     border-right: .15em solid black;
@@ -30,7 +29,7 @@
     color: white;
     letter-spacing: .15em;
     animation: 
-      typing 3s steps(100, end),
+      typing 1.5s steps(100, end),
       blink-caret .75s step-end infinite
  }
 
@@ -44,3 +43,9 @@
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+
+  @media (max-width:800px){
+    .header-h1{
+        font-size: 12px;
+    }
+}

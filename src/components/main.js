@@ -33,13 +33,21 @@ export default function Main(){
 
     return(
             <div className='main-content'>
-                    <div className="about">
-                    <h1>About</h1>
-                    <div className='about-container'>
-                        <img src="../../anas.png" alt="" />
-                        <p>Hi there! I'm Seb, a web dev. Growing up, I always had an affinity for everything tech related. Jailbreaking my first iPod, installing custom ROMs on my android phones (and nearly bricking them) or modding my gaming consoles were some of the things that developed my problem solving skills.</p>
-                    </div>
-                </div>
+                  <div className="about">
+                  <main class="container">
+                        <p>Hello <div className='emoji'>👋</div> I'm</p>
+                        <section class="animation">
+                            <div class="first"><div>Anas Tafish</div></div>
+                            <div class="second"><div>Web Developer</div></div>
+                            <div class="third"><div>Front End Designer</div></div>
+                        </section>
+                        </main>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </div>  
                 <div className="projects reveal">
                  <h1>Projects</h1>
                  <div className='project-container'>
