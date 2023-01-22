@@ -49,6 +49,22 @@
     }
 }
 
+.hide{
+    animation: slideout 1s forwards;
+}
+
+@keyframes slideout{
+    0%{
+        transform: translate(0);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translate(-1000px);
+        opacity: 0;
+    }
+}
+
 @media (max-width:800px){
     .skills-icons img{
         width: 50px;

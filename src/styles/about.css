@@ -57,13 +57,13 @@
   }
   
   .first div {
-    background-color:#20a7d8;
+    background-color:darkgreen;
   }
   .second div {
-    background-color:#CD921E;
+    background-color:darkcyan;
   }
   .third div {
-    background-color:#c10528;
+    background-color:darkmagenta;
   }
   
   @keyframes text-animation {
@@ -178,7 +178,7 @@
 
 .about > .info img{
   width: 150px;
-  margin-left: 20px;
+  margin-top: 20px;
   align-self: center;
 }
 

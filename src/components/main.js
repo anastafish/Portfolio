@@ -12,8 +12,11 @@ export default function Main(){
           var elementVisible = 150;
           if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("active");
-          } else {
+            reveals[i].classList.remove("hide");
+          } else {            
+            reveals[i].classList.add("hide");
             reveals[i].classList.remove("active");
+
           }
         }
       }
