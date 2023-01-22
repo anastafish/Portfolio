@@ -3,8 +3,7 @@ import Main from './components/main';
 import Header from './components/header';
 import ContactForm from './components/ContactForm';
 import {useState, useEffect} from 'react';
-
-
+import Footer from '../src/components/footer';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -32,6 +31,7 @@ function App() {
       <Header/>
       <Main/>
       <ContactForm/>
+      <Footer/>
     </div>
   );
 }

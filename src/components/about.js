@@ -15,12 +15,12 @@ export default function About(props){
                         <div className="info">
                             <img src={anas} alt="" />
                             <p>I am a passionate web developer. I believe in 
-                                the power of collaboration and open communication.
+                                the power of collaboration and open communication. <br /> <br />
                                  I work hard to achieve my goals and improve the quality of my work.
                                   I am able to create engaging and effective applications that
-                                   help people connect with the world around them.
+                                   help people connect with the world around them.<br /> <br />
                                    Every day, I find new things to learn about. This keeps me motivated
-                                    to improve my skills and knowledge.I am constantly looking
+                                    to improve my skills and knowledge. <br /> <br /> I am constantly looking
                                      for opportunities to expand my abilities.
                                      </p>
                         </div>

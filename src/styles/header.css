@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&display=swap');
+
 body{
   margin: 0;
   padding: 0;
@@ -25,12 +27,14 @@ body{
     overflow: hidden;
     border-right: .15em solid black;
     white-space: nowrap; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
     margin: 0 auto; 
     color: white;
-    letter-spacing: .15em;
     animation: 
       typing 1.5s steps(100, end),
       blink-caret .75s step-end infinite
+
  }
 
   
@@ -47,6 +51,6 @@ body{
 
   @media (max-width:800px){
     .header-h1{
-      font-size: 20px;
+      font-size: 13px;
     }
   }

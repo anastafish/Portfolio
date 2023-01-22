@@ -1,8 +1,9 @@
 .contact-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 5rem;
 }
 
@@ -55,6 +56,25 @@
     border-radius: .3rem;
     border: 1px solid black;
     padding: .3rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.socials div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.socials a img{
+    width: 60px;
 }
 
 @media (max-width:800px){

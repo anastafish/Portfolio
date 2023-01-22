@@ -20,16 +20,25 @@ import '../styles/contact.css'
       return (
 
         <div className="contact-container">
-            <h1>Contact</h1>
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-              <label>Email</label>
-              <input type="email" name="user_email" />
-              <label>Message</label>
-              <textarea name="message" />
-              <button className='submit-btn' type="submit" value="Send">Submit</button>
-            </form>
+            <div>
+              <h1>Contact</h1>
+              <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" />
+                <label>Email</label>
+                <input type="email" name="user_email" />
+                <label>Message</label>
+                <textarea name="message" />
+                <button className='submit-btn' type="submit" value="Send">Submit</button>
+              </form>
+            </div>
+            <div className='socials'>
+              <h1>Find Me on:</h1>
+              <div>
+                <a href="https://github.com/anastafish" target={'_blank'} rel='noreferrer'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github'/></a>
+                <a href="https://www.linkedin.com/in/anas-tafish-665027180/" target={'_blank'} rel='noreferrer'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt='LinkedIn'/></a>
+              </div>
+            </div>
         </div>
       );
     };
