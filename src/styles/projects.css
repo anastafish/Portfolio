@@ -110,4 +110,12 @@
     .project-card h1{
         font-size:10px ;
     }
+
+    .project-card:hover{
+        transform: none;
+    }
+
+    .project-card img{
+        filter: blur(0);
+    }
 }
