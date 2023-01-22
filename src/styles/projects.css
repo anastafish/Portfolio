@@ -84,6 +84,7 @@
 
     .projects{
         align-items: center;
+        margin: 2rem;
     }
 
     .project-container{

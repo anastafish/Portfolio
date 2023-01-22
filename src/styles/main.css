@@ -22,3 +22,9 @@ body{
     justify-content: center;
     gap:6rem;
 }
+
+@media (max-width:800px){
+    .main-content{
+        gap: 2rem;
+    }
+}

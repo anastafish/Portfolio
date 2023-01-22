@@ -60,6 +60,7 @@
 @media (max-width:800px){
     .contact-container{
         align-items: center;
+        padding-bottom: 1rem;
     }
     
     .contact-container h1{
