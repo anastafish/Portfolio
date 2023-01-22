@@ -1,31 +1,39 @@
+import todo from '../images/todo.png' 
+import meme from '../images/memegenerator.png' 
+import memory from '../images/memoryCard.png' 
+import tenzies from '../images/tenzies.png' 
+import tic from '../images/TicTacToe.png' 
+import weather from '../images/weatherApp.png' 
+
+
 export const projects = [
     {
-        img:"todo.png",
+        img:todo,
         link:'https://anastafish.github.io/TODO/',
         title:'Todo'
     },
     {
-        img:"memegenerator.png",
+        img:meme,
         link:'https://gotmemorycard.netlify.app',
         title:'MemeGenerator'
     },
     {
-        img:"memoryCard.png",
+        img:memory,
         link:'https://gotmemorycard.netlify.app',
         title:'MemoryCard'
     },
     {
-        img:"tenzies.png",
+        img:tenzies,
         link:'https://anastenzies.netlify.app',
         title:'Tenzies'
     },
     {
-        img:"TicTacToe.png",
+        img:tic,
         link:'https://anastafish.github.io/Tic-Tac-Toe/',
         title:'TicTacToe'
     },
     {
-        img:"weatherApp.png",
+        img:weather,
         link:'https://anastafish.github.io/weather-app/',
         title:'WeatherApp'
     },    

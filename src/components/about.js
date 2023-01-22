@@ -1,4 +1,5 @@
 import '../styles/about.css'
+import anas from '../images/anas.png'
 
 export default function About(props){
     return(
@@ -12,7 +13,7 @@ export default function About(props){
                         </section>
                         </main>
                         <div className="info">
-                            <img src="../../anas.png" alt="" />
+                            <img src={anas} alt="" />
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                  Aenean commodo ligula eget dolor. Aenean massa.
                                   Cum sociis natoque penatibus et magnis dis parturient montes,

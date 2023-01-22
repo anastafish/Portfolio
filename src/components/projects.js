@@ -6,7 +6,7 @@ export default function Projects(props){
     function Project(props){
         return(
             <div className='project-card'>
-                <a href={props.link} rel='noreferrer' target={'_blank'}><img src={`../../${props.img}`} alt="" /></a>
+                <a href={props.link} rel='noreferrer' target={'_blank'}><img src={props.img} alt="" /></a>
                 <h1>{props.title}</h1>
             </div>
         )
