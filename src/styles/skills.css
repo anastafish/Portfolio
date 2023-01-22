@@ -21,6 +21,37 @@
     height: 100px;
 }
 
+.img1{
+    animation: icon 1s infinite alternate .5s;  
+}
+
+.img2{
+    animation: icon 1s infinite alternate 1s;
+}
+
+.img3{
+    animation: icon 1s infinite alternate 1.5s;
+
+}
+
+.img4{
+    animation: icon 1s infinite alternate 2s;
+
+}
+
+@keyframes icon{
+    0%{
+        transform: scale(1);
+        transform: rotate(-5deg);
+    }
+
+    100%{
+        transform: scale(1.2);
+        transform: rotate(5deg);
+    }
+}
+
+
 .skills-icons{
     width: 100%;
     display: flex;

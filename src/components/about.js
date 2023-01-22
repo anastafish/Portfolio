@@ -7,7 +7,7 @@ export default function About(props){
                   <main class="container">
                         <p>Hello <div className='emoji'>👋</div> I'm</p>
                         <section class="animation">
-                            <div class="first"><div>Anas Tafish</div></div>
+                            <div class="first"><div>Anas Wail Tafish</div></div>
                             <div class="second"><div>Web Developer</div></div>
                             <div class="third"><div>Front End Designer</div></div>
                         </section>
