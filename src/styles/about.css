@@ -43,7 +43,7 @@
   }
   
   .animation > div > div {
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem 0.25rem;
     height:2.81rem;
     margin-bottom: 2.81rem;
     display:inline-block;
@@ -177,6 +177,9 @@
 
 .about > .info{
   gap: .3rem;
+}
+.animation > div > div{
+  margin-bottom: 1.2rem;
 }
 }
 
