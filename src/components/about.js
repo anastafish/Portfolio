@@ -14,12 +14,14 @@ export default function About(props){
                         </main>
                         <div className="info">
                             <img src={anas} alt="" />
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                 Aenean commodo ligula eget dolor. Aenean massa.
-                                  Cum sociis natoque penatibus et magnis dis parturient montes,
-                                   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                     Donec pede justo, fringilla vel, aliquet nec, vulputate
+                            <p>I am a passionate web developer. I believe in 
+                                the power of collaboration and open communication.
+                                 I work hard to achieve my goals and improve the quality of my work.
+                                  I am able to create engaging and effective applications that
+                                   help people connect with the world around them.
+                                   Every day, I find new things to learn about. This keeps me motivated
+                                    to improve my skills and knowledge.I am constantly looking
+                                     for opportunities to expand my abilities.
                                      </p>
                         </div>
                     </div>
