@@ -9,7 +9,7 @@ import '../styles/contact.css'
         e.preventDefault();   
         emailjs.sendForm('service_s1hmk1s', 'template_dx8srnq', form.current, 'KNshdyHxDVE80s1gd')
           .then((result) => {
-              document.querySelector('.submit-btn').textContent = "Submmitted Succefully";
+              document.querySelector('.submit-btn').textContent = "Submmitted Successfully";
               document.querySelector('.submit-btn').style.background = 'green'; 
           }, (error) => {
               document.querySelector('.submit-btn').textContent = "Try Again Later";
