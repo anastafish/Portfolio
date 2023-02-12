@@ -4,6 +4,8 @@ import memory from '../images/memoryCard.png'
 import tenzies from '../images/tenzies.png' 
 import tic from '../images/TicTacToe.png' 
 import weather from '../images/weatherApp.png' 
+import calculator from '../images/calculator.png'
+import bank from '../images/bank-app.png' 
 
 
 export const projects = [
@@ -14,7 +16,7 @@ export const projects = [
     },
     {
         img:meme,
-        link:'https://gotmemorycard.netlify.app',
+        link:'https://memegeneratoranas.netlify.app/',
         title:'MemeGenerator'
     },
     {
@@ -37,6 +39,16 @@ export const projects = [
         link:'https://anastafish.github.io/weather-app/',
         title:'WeatherApp'
     },    
+    {
+        img:bank,
+        link:'https://anastafish.github.io/modern-website/',
+        title:'BankApp',
+    },
+    {
+       img:calculator,
+        link:'https://anastafish.github.io/calculator/',
+        title:'Calculator',
+    }
 ]
 
 

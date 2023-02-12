@@ -1,6 +1,6 @@
 .project-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border: 1px solid black;
 }
 
@@ -37,6 +37,7 @@
 }
 
 .project-card h1{
+    color:green;
     font-size: 25px;
     position:absolute;
     user-select: none;
@@ -104,7 +105,8 @@
     }
 
     .project-container{
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .project-card h1{
