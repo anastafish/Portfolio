@@ -16,27 +16,37 @@
     padding-left: 20px;
 }
 
-.skills-container img{
-    width: 100px;
-    height: 100px;
-}
 
 .img1{
+    width: 100px;
+    height: 100px;
     animation: icon 1s infinite alternate .5s;  
 }
 
 .img2{
+    width: 100px;
+    height: 100px;
     animation: icon 1s infinite alternate 1s;
 }
 
 .img3{
+    width: 100px;
+    height: 100px;
     animation: icon 1s infinite alternate 1.5s;
 
 }
 
 .img4{
+    width: 100px;
+    height: 100px;
     animation: icon 1s infinite alternate 2s;
 
+}
+
+.img5{
+    width: 200px;
+    height: 200px;
+    animation: icon 1s infinite alternate 2.5s;
 }
 
 @keyframes icon{
