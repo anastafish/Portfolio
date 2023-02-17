@@ -4,8 +4,8 @@ import memory from '../images/memoryCard.png'
 import tenzies from '../images/tenzies.png' 
 import tic from '../images/TicTacToe.png' 
 import weather from '../images/weatherApp.png' 
-import calculator from '../images/calculator.png'
 import bank from '../images/bank-app.png' 
+import url_shortning from '../images/url.png'
 
 
 export const projects = [
@@ -45,9 +45,9 @@ export const projects = [
         title:'BankApp',
     },
     {
-       img:calculator,
-        link:'https://anastafish.github.io/calculator/',
-        title:'Calculator',
+       img:url_shortning,
+        link:'https://anastafish.github.io/url-shortening/',
+        title:'URL Shortening',
     }
 ]
 
