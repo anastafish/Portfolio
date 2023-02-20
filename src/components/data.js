@@ -1,7 +1,7 @@
 import todo from '../images/todo.png' 
 import meme from '../images/memegenerator.png' 
 import memory from '../images/memoryCard.png' 
-import tenzies from '../images/tenzies.png' 
+import ip_tracker from '../images/ip-tracker.png' 
 import tic from '../images/TicTacToe.png' 
 import weather from '../images/weatherApp.png' 
 import bank from '../images/bank-app.png' 
@@ -25,9 +25,9 @@ export const projects = [
         title:'MemoryCard'
     },
     {
-        img:tenzies,
-        link:'https://anastenzies.netlify.app',
-        title:'Tenzies'
+        img:ip_tracker,
+        link:'https://anastafish.github.io/IP-Address-Tracker/',
+        title:'Ip Tracker'
     },
     {
         img:tic,
