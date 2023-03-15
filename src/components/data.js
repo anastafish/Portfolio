@@ -1,11 +1,11 @@
 import todo from '../images/todo.png' 
-import meme from '../images/memegenerator.png' 
 import memory from '../images/memoryCard.png' 
 import ip_tracker from '../images/ip-tracker.png' 
 import tic from '../images/TicTacToe.png' 
 import weather from '../images/weatherApp.png' 
 import bank from '../images/bank-app.png' 
 import url_shortning from '../images/url.png'
+import dictionary from '../images/dictionary.png'
 
 
 export const projects = [
@@ -15,10 +15,10 @@ export const projects = [
         title:'Todo'
     },
     {
-        img:meme,
-        link:'https://memegeneratoranas.netlify.app/',
-        title:'MemeGenerator'
-    },
+        img:weather,
+        link:'https://anastafish.github.io/weather-app/',
+        title:'WeatherApp'
+    },   
     {
         img:memory,
         link:'https://gotmemorycard.netlify.app',
@@ -35,10 +35,10 @@ export const projects = [
         title:'TicTacToe'
     },
     {
-        img:weather,
-        link:'https://anastafish.github.io/weather-app/',
-        title:'WeatherApp'
-    },    
+        img:dictionary,
+        link:'https://anastafish.github.io/dictionary-app/',
+        title:'Dictionary'
+    }, 
     {
         img:bank,
         link:'https://anastafish.github.io/modern-website/',
