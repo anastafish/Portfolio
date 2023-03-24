@@ -1,11 +1,11 @@
-import todo from '../images/todo.png' 
+import train from '../images/train.png' 
 import memory from '../images/memoryCard.png' 
 import ip_tracker from '../images/ip-tracker.png' 
-import tic from '../images/TicTacToe.png' 
 import weather from '../images/weatherApp.png' 
 import bank from '../images/bank-app.png' 
 import url_shortning from '../images/url.png'
 import dictionary from '../images/dictionary.png'
+import todo from  '../images/todo.png'
 
 
 export const projects = [
@@ -30,9 +30,9 @@ export const projects = [
         title:'Ip Tracker'
     },
     {
-        img:tic,
-        link:'https://anastafish.github.io/Tic-Tac-Toe/',
-        title:'TicTacToe'
+        img:train,
+        link:'https://anastafish.github.io/Reactive-Train/',
+        title:'Train Ticket App'
     },
     {
         img:dictionary,
