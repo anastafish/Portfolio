@@ -8,7 +8,7 @@ body{
 .header-container{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   box-shadow: 0 2px 2px #00000026;
   width: 100%;
   background-color: #17202A;
@@ -48,9 +48,28 @@ body{
     50% { border-color: orange }
   }
 
+  .header-links{
+    display: flex; 
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .header-links h1{
+    color: aliceblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .header-links h1:hover{
+    color: antiquewhite;
+  }
 
   @media (max-width:800px){
     .header-h1{
       font-size: 13px;
+    }
+    
+    .header-links{
+      display: none;
     }
   }
