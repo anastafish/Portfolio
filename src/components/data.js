@@ -1,11 +1,11 @@
 import train from '../images/train.png' 
-import memory from '../images/memoryCard.png' 
 import ip_tracker from '../images/ip-tracker.png' 
 import weather from '../images/weatherApp.png' 
 import bank from '../images/bank-app.png' 
 import url_shortning from '../images/url.png'
 import dictionary from '../images/dictionary.png'
 import todo from  '../images/todo.png'
+import social from '../images/social.png'
 
 
 export const projects = [
@@ -20,9 +20,9 @@ export const projects = [
         title:'WeatherApp'
     },   
     {
-        img:memory,
-        link:'https://gotmemorycard.netlify.app',
-        title:'MemoryCard'
+        img:social,
+        link:'https://social-media-app-fslc.vercel.app/',
+        title:'Socila Media App'
     },
     {
         img:ip_tracker,
