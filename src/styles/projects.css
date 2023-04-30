@@ -19,18 +19,12 @@
 }
 
 .project-card:hover{
-    transform: scale(1.3);
     z-index: 9;
-}
-
-.project-card img:hover{
-    filter: blur(0px);
 }
 
 .project-card img{
     width: 100%;
     height: 100%;
-    filter: blur(1.5px);
 }
 
 .project-card a{
@@ -45,7 +39,7 @@
     user-select: none;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
 }
 

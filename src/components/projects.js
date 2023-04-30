@@ -1,14 +1,17 @@
 import { projects } from './data';
+import { motion } from 'framer-motion'; 
 import '../styles/projects.css'
 
 export default function Projects(props){
 
     function Project(props){
         return(
-            <div className='project-card'>
-                <a href={props.link} rel='noreferrer' target={'_blank'}><img src={props.img} alt="" /></a>
-                <h1>{props.title}</h1>
-            </div>
+            <motion.div className='project-card' whileHover={{scale:1.2}}>
+                <a className='project-card' href={props.link} rel='noreferrer' target={'_blank'}>
+                    <img src={props.img} alt="" />
+                    <h1>{props.title}</h1>
+                    </a>
+            </motion.div>
         )
     }
 
