@@ -3,10 +3,12 @@ import { motion } from 'framer-motion';
 import '../styles/projects.css'
 
 export default function Projects(props){
-
     function Project(props){
         return(
-            <motion.div className='project-card' whileHover={{scale:1.2}}>
+            <motion.div 
+                className='project-card' 
+                whileHover={{scale:1.2}}
+                >
                 <a className='project-card' href={props.link} rel='noreferrer' target={'_blank'}>
                     <img src={props.img} alt="" />
                     <h1>{props.title}</h1>
