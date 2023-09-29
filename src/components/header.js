@@ -2,8 +2,8 @@ import '../styles/header.css'
 
 export default function Header(){
 
-    function handleScroll(className){
-        const scrollDiv = document.querySelector(className).offsetTop - 80;
+    function handleScroll(className, dimensions){
+        const scrollDiv = document.querySelector(className).offsetTop - dimensions;
         window.scrollTo({ top: scrollDiv, behavior: 'smooth'}); 
     }
 
@@ -13,13 +13,13 @@ export default function Header(){
                 <h1 className='header-h1'>Welcome To My Portfolio!</h1>
             </div>  
             <div className='header-links'>
-                <h1 onClick={() => handleScroll(".projects")}>
+                <h1 onClick={() => handleScroll(".projects", 70)}>
                     Projects
                     </h1>
-                <h1 onClick={() => handleScroll(".skills-container")}>
+                <h1 onClick={() => handleScroll(".skills-container", 120)}>
                     Skilss
                     </h1>
-                <h1 onClick={() => handleScroll(".contact-container")}>
+                <h1 onClick={() => handleScroll(".contact-container", 60)}>
                     Contact
                     </h1>
             </div>
