@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2397f8bb.css",
-    "main.js": "/static/js/main.63b10305.js",
+    "main.css": "/static/css/main.58f1d3f2.css",
+    "main.js": "/static/js/main.9571f63e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/ip-tracker.png": "/static/media/ip-tracker.2788c00a4c22743dfdcf.png",
     "static/media/anas.png": "/static/media/anas.e6480776a464559b5713.png",
     "static/media/weatherApp.png": "/static/media/weatherApp.8875dc80719897677a27.png",
-    "static/media/bank-app.png": "/static/media/bank-app.49dbcc11f792ff682f6e.png",
     "static/media/train.png": "/static/media/train.c51b42af013a913c26af.png",
     "static/media/social.png": "/static/media/social.d81febf0e6bd108310c2.png",
     "static/media/url.png": "/static/media/url.3677668663a62b44e78e.png",
     "static/media/todo.png": "/static/media/todo.85f36ddb725700b8d1f1.png",
+    "static/media/anasgpt.png": "/static/media/anasgpt.8fc0dc030c3980fc5b5c.png",
     "static/media/dictionary.png": "/static/media/dictionary.1fe1f0e6a2d945917411.png",
     "index.html": "/index.html",
-    "main.2397f8bb.css.map": "/static/css/main.2397f8bb.css.map",
-    "main.63b10305.js.map": "/static/js/main.63b10305.js.map",
+    "main.58f1d3f2.css.map": "/static/css/main.58f1d3f2.css.map",
+    "main.9571f63e.js.map": "/static/js/main.9571f63e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2397f8bb.css",
-    "static/js/main.63b10305.js"
+    "static/css/main.58f1d3f2.css",
+    "static/js/main.9571f63e.js"
   ]
 }
