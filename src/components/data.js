@@ -1,12 +1,11 @@
 import train from '../images/train.png' 
 import ip_tracker from '../images/ip-tracker.png' 
 import weather from '../images/weatherApp.png' 
-import bank from '../images/bank-app.png' 
 import url_shortning from '../images/url.png'
 import dictionary from '../images/dictionary.png'
 import todo from  '../images/todo.png'
 import social from '../images/social.png'
-
+import anasgpt from '../images/anasgpt.png'
 
 export const projects = [
     {
@@ -40,9 +39,9 @@ export const projects = [
         title:'Dictionary'
     }, 
     {
-        img:bank,
-        link:'https://anastafish.github.io/modern-website/',
-        title:'BankApp',
+        img:anasgpt,
+        link:'https://anas-gpt.vercel.app/',
+        title:'AnasGPT',
     },
     {
        img:url_shortning,

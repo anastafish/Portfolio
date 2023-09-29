@@ -9,9 +9,9 @@ export default function Projects(props){
                 className='project-card' 
                 whileHover={{scale:1.2}}
                 >
+                    <h2 className='project-title'>{props.title}</h2>
                 <a className='project-card' href={props.link} rel='noreferrer' target={'_blank'}>
                     <img src={props.img} alt="" />
-                    <h1>{props.title}</h1>
                     </a>
             </motion.div>
         )

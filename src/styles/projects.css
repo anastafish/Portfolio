@@ -8,6 +8,7 @@
 
 .project-card{
     display: grid;
+    position: relative;
     grid-template-columns: auto auto auto;
     grid-auto-flow: column;
     align-items: center;
@@ -15,11 +16,6 @@
     border: 1px solid black;
     width: 16rem;
     height: 10rem;
-    transition: transform 2s;
-}
-
-.project-card:hover{
-    z-index: 9;
 }
 
 .project-card img{
@@ -32,10 +28,12 @@
     height: 100%;
 }
 
-.project-card h1{
-    color:green;
+.project-title{
+    color:black;
     font-size: 25px;
     position:absolute;
+    top:0px;
+    z-index: 9;
     user-select: none;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -106,15 +104,12 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .project-card h1{
-        font-size:12px ;
+    .project-title{
+        font-size:14px ;
     }
 
     .project-card:hover{
         transform: none;
     }
 
-    .project-card img{
-        filter: blur(2px);
-    }
 }

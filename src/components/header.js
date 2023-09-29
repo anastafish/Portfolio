@@ -3,7 +3,7 @@ import '../styles/header.css'
 export default function Header(){
 
     function handleScroll(className){
-        const scrollDiv = document.querySelector(className).offsetTop - 100;
+        const scrollDiv = document.querySelector(className).offsetTop - 80;
         window.scrollTo({ top: scrollDiv, behavior: 'smooth'}); 
     }
 
