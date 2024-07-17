@@ -2,7 +2,7 @@
 
 .project-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid black;
 }
 
@@ -14,8 +14,8 @@
     align-items: center;
     justify-items: center;
     border: 1px solid black;
-    width: 16rem;
-    height: 10rem;
+    width: 20rem;
+    height: 12rem;
 }
 
 .project-card img{

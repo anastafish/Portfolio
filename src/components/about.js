@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import anas from '../images/anas.png'
+import anas from '../images/anas.jpg'
 
 export default function About(props){
     return(
