@@ -1,12 +1,6 @@
 import '../styles/header.css'
 
 export default function Header(){
-
-    function handleScroll(className, dimensions){
-        const scrollDiv = document.querySelector(className).offsetTop - dimensions;
-        window.scrollTo({ top: scrollDiv, behavior: 'smooth'}); 
-    }
-
     return(
         <div className="header-container">            
              <div className='h1-container'>
