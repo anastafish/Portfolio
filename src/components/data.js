@@ -2,14 +2,14 @@ import train from '../images/train.png'
 import ip_tracker from '../images/ip-tracker.png' 
 import weather from '../images/weatherApp.png' 
 import dictionary from '../images/dictionary.png'
-import todo from  '../images/todo.png'
+import thrifty from '../images/thrifty.png'
 import social from '../images/social.png'
 
 export const projects = [
     {
-        img:todo,
-        link:'https://anastafish.github.io/TODO/',
-        title:'Todo'
+        img:thrifty,
+        link:'https://thrifty-kohl.vercel.app',
+        title:'Thrifty'
     },
     {
         img:weather,
