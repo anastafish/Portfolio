@@ -112,7 +112,7 @@
   .about > .info p{
     font-family: 'Kavoon', cursive;
     max-width: 500px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
 
@@ -121,29 +121,17 @@
     border-radius: 100%;
     padding-top: 1rem;
     background-color: #20a7d8; */
-    --s: 15px;  
-    --b: 2px; 
-    --w: 200px; 
-    --c: #7B3B3B;
+    --s: 25px;  
+    --b: 6px; 
+    --w: 250px; 
+    --c: black;
     
     width: var(--w);
-    aspect-ratio: 1;
-    object-fit: cover;
-    --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
-    background:
-      linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
-      linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
-    /* outline: calc(var(--w)/2) solid #0009; */
-    outline-offset: calc(var(--w)/-2 - 2*var(--s));
-    transition: .4s;
     cursor: pointer;
-  }
-
-  img:hover {
     outline: var(--b) solid var(--c);
     outline-offset: calc(var(--s)/-2);
     --_i: calc(100% - 2*var(--s));
-    padding: calc(1*var(--s));
+    padding: calc(.5*var(--s));
   }
 
   @media (max-width:800px){

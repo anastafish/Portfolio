@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import anas from '../images/anas.png'
+import anas from '../images/anas.jpg'
 
 export default function About(props){
     return(
@@ -14,14 +14,15 @@ export default function About(props){
                         </main>
                         <div className="info">
                             <img src={anas} alt="" />
-                            <p>I am a passionate web developer. I believe in 
-                                the power of collaboration and open communication. <br /> <br />
-                                 I work hard to achieve my goals and improve the quality of my work.
-                                  I am able to create engaging and effective applications that
-                                   help people connect with the world around them.<br /> <br />
-                                   Every day, I find new things to learn about. This keeps me motivated
-                                    to improve my skills and knowledge. <br /> <br /> I am constantly looking
-                                     for opportunities to expand my abilities.
+                            <p>Computer Science student and Software Developer skilled in Full Stack Web Development. 
+                                <br /> <br />
+                                Builds user-friendly websites and apps using various coding languages, including React.js, 
+                                JavaScript, Nodejs, and Python.
+                                <br /> <br />
+                                Interested in Machine Learning and AI.
+                                <br /> <br />
+                                excited to apply classroom 
+                                knowledge to real-world projects.
                                      </p>
                         </div>
                     </div>
