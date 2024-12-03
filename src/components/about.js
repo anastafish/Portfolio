@@ -1,5 +1,4 @@
 import '../styles/about.css'
-import anas from '../images/anas.jpg'
 
 export default function About(props){
     return(
@@ -13,7 +12,6 @@ export default function About(props){
                         </section>
                         </main>
                         <div className="info">
-                            <img src={anas} alt="" />
                             <p>Computer Science student and Software Developer skilled in Full Stack Web Development. 
                                 <br /> <br />
                                 Builds user-friendly websites and apps using various coding languages, including React.js, 
